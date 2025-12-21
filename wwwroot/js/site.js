@@ -1,0 +1,1 @@
+﻿const { error } = require("jquery");
