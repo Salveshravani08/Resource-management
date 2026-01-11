@@ -5,15 +5,13 @@ namespace Mycollectionproject.Models
     public class Collectionform
     {
         public int id { get; set; }
+
+        public string? Title { get; set; }
+        public string? Description { get; set; }
+
+
+        public String? Tag { get; set; }
         
-        public String Title { get; set; }
-        [Required]
-
-        public string Description { get; set; }
-        [Required]
-
-        public String Tag { get; set; }
-        [Required]
         public string imageUrl { get; set; }
         public string Link { get; set; }
         public DateTime Created_at { get; set; }
